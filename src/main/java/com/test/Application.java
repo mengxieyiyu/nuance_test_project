@@ -1,12 +1,27 @@
 package com.test;
 
+import com.test.exception.BusinessException;
+
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 方法入口
+ * @author litao
+ */
 public class Application {
     public static void main(String[] args) {
-        // test case
-        Integer[] array = {12, 13, 5, 7, 23};
+
+        //test case 1: 满足条件的双元素序列
+//        Integer[] array = {123,321};
+
+        // test case 2: 不满足条件序列
+//        Integer[] array = {12, 13, 5,31, 21};
+
+        // test case 3: 满足条件的多元素序列
+        Integer[] array = {12, 7, 5, 7, 21};
+
+
         // convert to List
         List<Integer> params = Arrays.asList(array);
 
@@ -17,8 +32,10 @@ public class Application {
             FibonacciPalindrome fibonacciPalindrome = new FibonacciPalindromeImpl();
             Pair result = fibonacciPalindrome.findFibonacciPalindrome(params);
             System.out.println("response: startIndex:" + result.getFirst() + ", length:" + result.getSecond());
-        }catch (Exception ex){
-            System.out.println(ex.getMessage());
+        } catch (BusinessException be) {
+            System.out.println(be.getMsg());
+        } catch (Exception ex) {
+            ex.printStackTrace();
         }
     }
 }

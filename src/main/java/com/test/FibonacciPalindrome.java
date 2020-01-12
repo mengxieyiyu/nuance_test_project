@@ -14,5 +14,5 @@ public interface FibonacciPalindrome {
      * @param sequence A non-empty sequence of unsigned integers.
      * @return A Pair(startIndex, length), where startIndex is the index at which the largest Fibonacci Palindrome starts and length its length of the palindrome.
      */
-    Pair findFibonacciPalindrome(List<Integer> sequence);
+    Pair findFibonacciPalindrome(List<Integer> sequence) throws Exception;
 }
