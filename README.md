@@ -1,23 +1,30 @@
-# gitTest
+# 纽昂斯笔试题
 
 #### 介绍
-简单测试下
+算法题目：
+斐波那契回文，实现语言JAVA
 
 #### 软件架构
 软件架构说明
-
+方法入口：Application.java
+实现了业务异常类，错误枚举类用于业务处理。
 
 #### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
+1. jdk8
+2. 编程工具：idea
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 找到方法入口类Application.java
+2. 代码中有3个测试数组，如下，测试时打开一个，注释另外两个即可。
+// test case 1: 满足条件的双元素序列
+// Integer[] array = {123,321};
+
+// test case 2: 不满足条件序列
+// Integer[] array = {12, 13, 5,31, 21};
+
+// test case 3: 满足条件的多元素序列
+   Integer[] array = {12, 7, 5, 7, 21};
 
 #### 参与贡献
 
@@ -25,13 +32,3 @@
 2. 新建 Feat_xxx 分支
 3. 提交代码
 4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
