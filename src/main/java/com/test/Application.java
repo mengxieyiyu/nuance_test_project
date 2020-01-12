@@ -32,7 +32,7 @@ public class Application {
         try {
             FibonacciPalindrome fibonacciPalindrome = new FibonacciPalindromeImpl();
             Pair result = fibonacciPalindrome.findFibonacciPalindrome(params);
-            System.out.println("response: startIndex:" + result.getFirst() + ", length:" + result.getSecond());
+            System.out.println("response: startIndex:" + result.getFirst() + ",length of the palindrome:" + result.getSecond());
         } catch (BusinessException be) {
             System.out.println(be.getMsg());
         } catch (Exception ex) {
