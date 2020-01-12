@@ -7,6 +7,7 @@ import java.util.List;
 
 /**
  * 方法入口
+ *
  * @author litao
  */
 public class Application {
@@ -19,7 +20,7 @@ public class Application {
 //        Integer[] array = {12, 13, 5,31, 21};
 
         // test case 3: 满足条件的多元素序列
-        Integer[] array = {12, 7, 5, 7, 21};
+        Integer[] array = {12, 7, 5, 7, 21, 343, 121, 343, 456, 145};
 
 
         // convert to List
